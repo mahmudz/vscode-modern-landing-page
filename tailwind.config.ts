@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import scrollbar from "tailwind-scrollbar";
 
 const config: Config = {
   content: [
@@ -8,13 +9,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          "2xl": "100px",
+        },
+      },
+      colors: {
+        background: "#010b13",
+        accent: "#355bad",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    scrollbar({
+      preferredStrategy: "pseudoelements",
+    }),
+  ],
 };
 export default config;

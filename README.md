@@ -21,4 +21,5 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Design
+https://www.figma.com/design/62Tw8TAw71XUvJKOBgPnK7/Visual-Studio?node-id=21115-92156&t=9FedoEh6inIuYsWo-0
 
