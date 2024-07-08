@@ -1,3 +1,8 @@
+# Redesign of VS Code landing page
+![modern-vscode netlify app_(Asus Zenbook Fold)](https://github.com/mahmudz/vscode-modern-landing-page/assets/22455598/d56f224b-f2fd-45eb-996c-1015a746eed0)
+
+Designed by [Demystifying Design](https://www.youtube.com/watch?v=m_d7K28CSXg)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
